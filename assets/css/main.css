@@ -2478,7 +2478,12 @@ section,
   transition: transform 0.3s ease; 
 }
 
+.img-fluid{
+  border-radius: 15px;
+}
+
 .img-fluid:hover{
   cursor: pointer;
-  transform: scale(1.1);
+  transition: transform 0.4s ease;
+  transform: scale(1.05);
 }
