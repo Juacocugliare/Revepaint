@@ -2478,12 +2478,12 @@ section,
   transition: transform 0.3s ease; 
 }
 
-.img-fluid{
-  border-radius: 15px;
+.img-fluidp{
+  border-radius: 8px;
 }
 
-.img-fluid:hover{
+.img-fluidp:hover{
   cursor: pointer;
-  transition: transform 0.4s ease;
-  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  transform: scale(1.03);
 }
