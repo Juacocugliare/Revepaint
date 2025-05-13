@@ -2474,8 +2474,8 @@ section,
 .proyectos-btn:hover{
   background-color: #167194;
   color: white;
-  transform: scale(1.1); 
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
+  transform: scale(1.05); 
 }
 
 .img-fluidp{
@@ -2487,3 +2487,13 @@ section,
   transition: transform 0.3s ease;
   transform: scale(1.03);
 }
+
+.automotorescarousel img{
+  max-width: 100%;
+  height: auto;
+  max-height: 95vh; /* o ajustá según tu preferencia */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
